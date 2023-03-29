@@ -35,7 +35,7 @@ if (prod) {
   app.use(hpp());
   app.use(
     cors({
-      origin: true,
+      origin: "*",
       credentials: true,
     })
   );
