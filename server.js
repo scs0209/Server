@@ -33,6 +33,12 @@ if (prod) {
   app.use(morgan("combined"));
   app.use(helmet({ contentSecurityPolicy: false }));
   app.use(hpp());
+  app.use(
+    cors({
+      origin: "https://port-0-server-p8xrq2mlfsc6kg2.sel3.cloudtype.app",
+      credentials: true,
+    })
+  );
 } else {
   app.use(morgan("dev"));
   app.use(
