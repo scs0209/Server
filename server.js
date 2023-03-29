@@ -35,7 +35,7 @@ if (prod) {
   app.use(hpp());
   app.use(
     cors({
-      origin: "https://port-0-server-p8xrq2mlfsc6kg2.sel3.cloudtype.app",
+      origin: "*",
       credentials: true,
     })
   );
