@@ -33,12 +33,6 @@ if (prod) {
   app.use(morgan("combined"));
   app.use(helmet({ contentSecurityPolicy: false }));
   app.use(hpp());
-  app.use(
-    cors({
-      origin: "*",
-      credentials: true,
-    })
-  );
 } else {
   app.use(morgan("dev"));
   app.use(
