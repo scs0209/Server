@@ -32,8 +32,8 @@ class Post extends Sequelize.Model {
         sequelize,
         modelName: "Post",
         tableName: "posts",
-        charset: "utf8",
-        collate: "utf8_general_ci",
+        charset: "utf8mb4",
+        collate: "utf8mb4_unicode_ci",
         timestamps: true,
         paranoid: true,
       }
@@ -47,8 +47,8 @@ class Post extends Sequelize.Model {
       onDelete: "CASCADE",
     });
     db.Post.hasMany(db.Like);
-    db.Post.hasMany(db.Comment, { onDelete: "CASCADE"});
+    db.Post.hasMany(db.Comment, { onDelete: "CASCADE" });
   }
-};
+}
 
 module.exports = Post;

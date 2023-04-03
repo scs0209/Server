@@ -1,6 +1,5 @@
 const dotenv = require("dotenv");
 dotenv.config();
-console.log("SECRET_KEY:", process.env.COOKIE_SECRET);
 const express = require("express");
 const session = require("express-session");
 const cookieParser = require("cookie-parser");
@@ -49,6 +48,7 @@ if (prod) {
   );
 }
 app.use(express.static(path.join(__dirname, "public")));
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); //form 파싱을 해줌
@@ -80,8 +80,4 @@ const PORT = process.env.PORT || 5000;
 
 app.listen(PORT, () => {
   console.log(`Server On : http://localhost:${PORT}/`);
-});
-
-app.get("/", (req, res) => {
-  res.send("SCS 서버 구동 완료");
 });
