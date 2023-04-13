@@ -412,7 +412,10 @@ router.post("/upload", upload.single("image"), (req, res) => {
     return res.status(400).send("이미지를 업로드해주세요.");
   }
   console.log(file.filename);
-  const baseUrl = "http://localhost:5000" || process.env.BASE_URL;
+  const baseUrl =
+    process.env.NODE_ENV === "production"
+      ? process.env.BASE_URL
+      : "http://localhost:5000";
   res.json({ url: `${baseUrl}/uploads/${file.filename}` });
 });
 
