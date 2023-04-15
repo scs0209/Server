@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "scs-blog",
+  "private_key_id": "39c4aace53763038af4aa433c2b63a1900449a42",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDWYFBo+u0n1CGn\nDzWd5NqdWpIKm2uWSTRTWbSQXfiQD4pHTGeT1MMzX2ABe/2fy/aFBkIOhglsqtWp\neL3L5F8TIBUEiXtOvk07BTYHPV/8R4aYukE6c6OIxwvs1gtJXmxEBvyOY4yNk+9V\nmJO7YWdkgPB3rZ+J4gkr20cxlgCx4tqNXeF5vHGk4zsCTUeIHdfauqMytQb5ajFt\nlfdXsq13fvcJ/krBqWoDqP700+KXF4iDm/ChZN1niTc1t89+ZmupAjIs7e2R37ZG\nQ2Ils7dVWFAzy4V8hLUwaL/ET1G6vnYfq5SKcK8PV7KavXLL1OIWnSvBz5CA6Wi+\n8ycgm9AnAgMBAAECggEAC7oPC/8V9ATNpnbVhwKa1tq6fGwOEZWFkD2q++64ByFi\nfg326IZN+0RvWwVuVUxx+srh2CuK3m/l6jRZpYqjjMdHfw0KOr98OAtL7k90Lbe3\n7CjcIpdqzbOdumHnEidhIsODE0Ls0F3UTMlg43Irlrra7KEJxiAgQk7ncRX0icZ2\nW/PsYA9e6gi+vCjNebOi2EYnMWs2vR28mDeay6euKQLxkPE2xfEpOy4WqUeEardL\niY24YrRcdPD4DxJh7ztFUQxq14dRbBxm/oWaJoAwPzXUPf9HYRZX45nSwCp9PdCm\nCtBjFrqubiObvdKNtBc/p3/Yp7S/dJjmdcRvpiMdyQKBgQD8vL8XBJmYVEpB85xb\nYQ30dJJYA92ADCZxY+jYvWZxCiUGXaWxC3Tn6dwcY36aLla/Nrl/vGKTPCwWCX3I\ncGUth5BUOvqri3UgSkxkeEbH1ldUcVFRNhVRLDSe8uPAc3Hx0Ivrq9gywTI6oN8G\nrLQbrXwkf0AJe+6YirK/k6HAFQKBgQDZJMp4MixG06ggxHWJW8DxVIUFKWLDPlnW\nCPKrsAsf4r1fAfsTTz0Qm6t6JFnNpB0+EHRVTO02cGKzDsZYWGXjxqHKPX05EX9J\ncIhUt5zeZqXntM0VL6zyVnynftrLBsDaCa8OHmFGedh/qEyRfmP9IK9VstuQ66z5\nSa58pY7iSwKBgCBrufui7G0dCvWQ4ZLbTWX5ejhuLoDZjijnjxwWl8iSa5N4eePP\nO2zwk/rUTI5MuXYH+B3Jtb97bZBaIVeQC3qetEYJ1tQgrKK6xTfyMeo6tbMwYiUP\n0gY6rHljYRHz/T7u6LQPtEk2fVIGBvYdO3F9fLpV1Ioi6sWIrUtkDdDNAoGAZqSI\nfKai3VwBlnOnZ6WSn8EnG9iDUe1wQ8d5BoUxzQG+KGHkUC1dnTMorJTwSk+wbv0S\nMJwraVdYoHF0eqBWkYP8SIAmaEqIE6v5FaqxoUN+WvfRFZmys98ED5zcSapIkQiQ\n0ii0LL8+AqIIh6HqG+ZOW0EvnuJ4omIc89jCoN8CgYB8de+OnJYAaRzV45WhEIZA\nPDVJvFpOGG7uc71xqc3nnbva3s7tjw3f84taYpZoGXAKpQZG/DIYWImWQYuumrpu\n4PlVh1tu3Or7fGbIQfRJRRY4k8UxSkHr0NVkBTZHKVjdMNgd5EUmY2SMAbXmaIX+\nGbPmQ5coJYKtbfhrarSOUw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "scsblog@scs-blog.iam.gserviceaccount.com",
+  "client_id": "114753724400819163590",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scsblog%40scs-blog.iam.gserviceaccount.com"
+}
