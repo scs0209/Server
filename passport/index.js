@@ -1,6 +1,8 @@
-const passport = require("passport");
-const local = require("./local");
-const User = require("../models/user");
+const passport = require('passport');
+const local = require('./local');
+const google = require('./google');
+const github = require('./github');
+const User = require('../models/user');
 
 module.exports = () => {
   passport.serializeUser((user, done) => {
@@ -12,14 +14,16 @@ module.exports = () => {
     try {
       const user = await User.findOne({
         where: { id },
-        attributes: ["id", "password", "email", "role"]
+        attributes: ['id', 'email', 'role', 'name'],
       });
       done(null, user); //req.user
-    } catch(error) {
+    } catch (error) {
       console.log(error);
       done(error);
     }
   });
 
   local();
+  google();
+  github();
 };
