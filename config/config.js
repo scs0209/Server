@@ -2,18 +2,19 @@ require('dotenv').config();
 
 module.exports = {
   development: {
-    username: 'tutorial_user',
+    username: 'root',
     password: process.env.MYSQL_PASSWORD,
     database: 'blog',
     host: '127.0.0.1',
-    port: '3306',
-    dialect: 'mysql',
+    port: '3307',
+    dialect: 'mariadb',
   },
   production: {
-    username: 'tutorial_user',
+    username: 'root',
     password: process.env.MYSQL_PASSWORD,
     database: 'blog',
-    host: '127.0.0.1',
-    dialect: 'mysql',
+    host: 'mariadb',
+    port: '3306',
+    dialect: 'mariadb',
   },
 };
