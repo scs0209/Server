@@ -13,8 +13,8 @@ module.exports = {
     username: 'root',
     password: process.env.MYSQL_PASSWORD,
     database: 'blog',
-    host: 'mariadb',
-    port: '3306',
+    host: 'svc.sel3.cloudtype.app',
+    port: '32697',
     dialect: 'mariadb',
   },
 };
