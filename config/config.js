@@ -14,6 +14,7 @@ module.exports = {
     password: process.env.MYSQL_PASSWORD,
     database: 'blog',
     host: 'svc.sel3.cloudtype.app',
+    port: '32697',
     dialect: 'mariadb',
   },
 };
