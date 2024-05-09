@@ -13,7 +13,7 @@ module.exports = {
     username: 'tutorial_user',
     password: process.env.MYSQL_PASSWORD,
     database: 'blog',
-    host: 'https://port-0-server-p8xrq2mlfsc6kg2.sel3.cloudtype.app/',
+    host: '127.0.0.1',
     dialect: 'mysql',
   },
 };
